@@ -1,0 +1,24 @@
+# Byte-compiled / cache
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Large / regenerable data (raw data is downloaded via scripts, not stored in git)
+data/raw/*.csv
+data/processed/*.csv
+data/*.db
+
+# Power BI temp files
+dashboard/*.pbix.bak
+
+# Jupyter
+*.ipynb_checkpoints
